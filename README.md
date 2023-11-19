@@ -1,1 +1,1 @@
-# city-nav
+- Open `index.html` file in browser to play around.
