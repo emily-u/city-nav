@@ -1,0 +1,54 @@
+:root {
+    --box-border: #DCDCDC;
+    --tab-font: #BEBEBE;
+    --tab-hover: #00A0C6;
+    --tab-active: #383838;
+    --tab-back-ground: #FFFFFF;
+    --slide: #000000
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.box {
+    height: 2.1rem;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    border-bottom: 1px var(--box-border) solid;
+}
+
+.item {
+    background-color: var(--tab-back-ground);
+    border: none;
+    color: var(--tab-font);
+    cursor: pointer;
+    position: relative;
+}
+
+.item:hover {
+    color: var(--tab-hover);
+}
+
+.active {
+    color: var(--tab-active);
+    cursor: unset;
+}
+
+.active:hover {
+    color: var(--tab-active);
+}
+
+.slide {
+    position: absolute;
+    border-bottom: 1.5px var(--slide) solid;
+    bottom: 0;
+}
+
+#local-time {
+    padding: 1.8rem;
+    color: var(--tab-active);
+}
+
